@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(HealthCheck healthCheck) {
-            text.setText(String.format("InfluxDB heath: %s", healthCheck));
+            text.setText(String.format("InfluxDB health: %s", healthCheck));
         }
     }
 }
